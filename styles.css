@@ -75,26 +75,23 @@ body{
 
   /*index-hero*/
 
-  #index-hero{
+  #index-hero, #index-services{
  background-color: #f842f6;
  margin: 20px;
  margin-bottom: 40px;
   }
 
-  #index-hero p{
+ p{
     padding: 20px;
     color: #39036b;
     font-size: 1.5em;
   }
 
-  /*video*/
+  /*photos*/
+.w-100{
 
-  iframe{
-    
-  position: absolute;
-   width: 100%;
-   height: 100%;
-  }
+  height: 100vh;
+}
 
   
   /*review*/
@@ -104,3 +101,31 @@ body{
     margin: 20px;
     margin-bottom: 40px;
      }
+
+     /* footer*/
+footer{
+  display: flex;
+  background-color: #f842f6;
+  margin-top: 2px;
+  
+  padding-bottom: 10px;
+  padding-top: 10px;
+  justify-content: center;
+
+  bottom: 0;
+  width: 100%;
+
+  
+}
+
+.fa { 
+ 
+  padding: 20px;  
+  font-size: 30px;  
+ border-radius: 40%;
+ 
+}  
+
+.contact a:hover{
+  color: grey;
+}

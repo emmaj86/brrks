@@ -23,3 +23,8 @@ anime
     easing: "easeOutExpo",
     delay: 1000,
   });
+
+//carousel
+$(".carousel").carousel({
+  interval: 2000,
+});
