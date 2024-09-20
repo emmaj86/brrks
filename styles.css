@@ -168,6 +168,39 @@ body{
 .grid-gallery{
   justify-content: center;
 }
+
+/*contact*/
+
+#contact{
+  background-color: #f842f6;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+#contact-details{
+  border: #f842f6 5px solid;
+    text-align: center;
+    margin: 20px;
+    font-size: 32px;   
+}
+
+#contact-details a{
+  text-decoration: none;
+  color: black;
+}
+
+#contact-details a:hover{
+  text-decoration: underline;
+  color: #f842f6;
+}
+.image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 70vh;max-width: 100%;
+  padding-top: 20px;
+  
+}
  
 
      /* footer*/
