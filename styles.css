@@ -96,7 +96,7 @@ body{
     color: #39036b;
     font-size: calc(36px + .5vw);
 
-    /* font-size: min(3.5vw, 52px); */
+   
   }
 
   /*photos*/
@@ -137,6 +137,7 @@ footer{
  text-decoration: none;
  color: #800013;
  border: #800013 2px solid;
+ border-radius: 10px;
  
 }  
 
@@ -146,8 +147,3 @@ footer{
 
 
 /*media queries*/
-/* @media screen and (min-width:600px) {
-  a{
-  font-size: 5vw;
-}
-} */
