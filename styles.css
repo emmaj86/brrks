@@ -12,7 +12,7 @@ body{
 
 
 
-.navbar{
+/* .navbar{
    display: flex;
     list-style-type: none;
     justify-content: space-evenly;
@@ -20,6 +20,26 @@ body{
     padding: 0;
     background-color: #f842f6;
     
+  } */
+
+  .navbar{
+    background-color: #e2dcd8;
+    margin: 20px;
+   
+  }
+
+  .navbar li{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-toggler.navbar-toggler{
+    border-color: #800013;
+    border: 3px solid #800013;
   }
 
   li{
