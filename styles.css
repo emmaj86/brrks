@@ -94,7 +94,9 @@ body{
  p{
     padding: 20px;
     color: #39036b;
-    font-size: 4.5vw;
+    font-size: calc(36px + .5vw);
+
+    /* font-size: min(3.5vw, 52px); */
   }
 
   /*photos*/
@@ -142,3 +144,10 @@ footer{
   color: grey;
 }
 
+
+/*media queries*/
+/* @media screen and (min-width:600px) {
+  a{
+  font-size: 5vw;
+}
+} */
