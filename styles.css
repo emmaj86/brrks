@@ -12,16 +12,6 @@ body{
 
 
 
-/* .navbar{
-   display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-    background-color: #f842f6;
-    
-  } */
-
   .navbar{
     background-color: #e2dcd8;
     margin: 20px;
@@ -32,7 +22,7 @@ body{
     display: flex;
     list-style-type: none;
     justify-content: center;
-    /* justify-content: space-evenly; */
+   
     margin: 0;
     padding: 0;
   }
@@ -104,7 +94,7 @@ body{
  p{
     padding: 20px;
     color: #39036b;
-    font-size: 1.5em;
+    font-size: 3.5vw;
   }
 
   /*photos*/
@@ -137,12 +127,18 @@ footer{
 
 .fa { 
  
-  padding: 20px;  
-  font-size: 30px;  
+  padding: 20px; 
+  margin: 10px;
+
+  font-size: 50px;  
  border-radius: 40%;
+ text-decoration: none;
+ color: #800013;
+ border: #800013 2px solid;
  
 }  
 
 .contact a:hover{
   color: grey;
 }
+
