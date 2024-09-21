@@ -252,6 +252,7 @@ footer{
     font-size: 18px;
   }
   .grid-gallery{
-    flex-shrink: 1.5;
+    /* flex-shrink: 1.5; */
+    width: 100vw;
   }
 }
