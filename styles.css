@@ -86,7 +86,7 @@ body{
   /*index-hero*/
 
   #index-hero, #index-services{
- background-color: #f842f6;
+ border: #f842f6 3px solid;
  margin: 20px;
  margin-bottom: 40px;
   }
@@ -116,7 +116,7 @@ body{
       /*index-hero*/
 
   #about{
-    background-color: #f842f6;
+    border: #f842f6 3px solid;
     margin: 20px;
     margin-bottom: 40px;
      }
@@ -125,6 +125,7 @@ body{
        padding: 20px;
        color: #39036b;
        font-size: calc(36px + .5vw);
+       justify-content: center;
    
       
      }
@@ -172,7 +173,7 @@ body{
 /*contact*/
 
 #contact{
-  background-color: #f842f6;
+  border: #f842f6 3px solid;
     margin: 20px;
     margin-bottom: 40px;
 }
@@ -207,6 +208,7 @@ body{
 footer{
   display: flex;
   background-color: #f842f6;
+  /* border-top: #f842f6 5px solid; */
   margin-top: 2px;
   
   padding-bottom: 10px;
@@ -227,11 +229,16 @@ footer{
   font-size: 50px;  
  border-radius: 40%;
  text-decoration: none;
- color: #800013;
- border: #800013 2px solid;
+ color: #f842f6;
+ border: #f842f6 2px solid;
  border-radius: 10px;
+ background-color: #e2dcd8;
  
 }  
+
+.fa:hover{
+  color: #800013;
+}
 
 .contact a:hover{
   color: grey;
